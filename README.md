@@ -2,6 +2,12 @@
 
 [本番環境でやらかしちゃった人 Advent Calendar 2019](https://qiita.com/advent-calendar/2019/yarakashi-production) 23 日目でやらかしたことを起こさないためのレポジトリです。
 
+## 環境構築
+
+```
+yarn install
+```
+
 ## ref
 
 - https://efcl.info/2018/06/21/can-npm-publish/
