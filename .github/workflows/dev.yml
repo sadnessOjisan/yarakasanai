@@ -29,7 +29,7 @@ jobs:
         env:
           CI: true
       - name: can i publish
-        run: echo $NODE_AUTH_TOKEN
+        run: echo {{$NODE_AUTH_TOKEN}}
         env:
           CI: true
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}h
