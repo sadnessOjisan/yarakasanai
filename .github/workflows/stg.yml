@@ -1,6 +1,9 @@
-name: Node CI
+name: stg
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -16,8 +19,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install, build, and test
+      - name: install
         run: |
-          NODE_ENV=dev node src/main.js
+          yarn install
+      - name: test
+        run: |
+          NODE_ENV=stg node src/main.js
         env:
           CI: true
+      - name: can i publish
+        run: yarn run can-npm-publish
