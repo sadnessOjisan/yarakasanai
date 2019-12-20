@@ -7,3 +7,4 @@
 - https://efcl.info/2018/06/21/can-npm-publish/
 - https://tech.bitbank.cc/npm-ci-cd/
 - https://dev.classmethod.jp/etc/github-actions-npm-automatic-release/
+- https://github.com/actions/setup-node/issues/52
