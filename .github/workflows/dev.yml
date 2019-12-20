@@ -29,4 +29,4 @@ jobs:
         env:
           CI: true
       - name: can i publish
-        run: echo ${{ secrets.NPM_TOKEN }}
+        run: yarn run can-npm-publish
