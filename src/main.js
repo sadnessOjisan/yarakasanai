@@ -1,2 +1,4 @@
 console.log("二度とやらかしません！！！！");
-throw new Error("すみませんでした！！！！！！！！");
+if (process.env.NODE_ENV === "prd") {
+  throw new Error("すみませんでした！！！！！！！！");
+}

@@ -18,6 +18,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: npm install, build, and test
         run: |
-          node src/main.js
+          NODE_ENV=dev node src/main.js
         env:
           CI: true
