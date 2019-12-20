@@ -19,13 +19,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: install
-        run: |
-          yarn install
-      - name: test
-        run: |
-          NODE_ENV=stg node src/main.js
-        env:
-          CI: true
       - name: can i publish
-        run: yarn run can-npm-publish
+        run: npm publish
