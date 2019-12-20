@@ -29,4 +29,4 @@ jobs:
         env:
           CI: true
       - name: can i publish
-        run: npm run can-npm-publish
+        run: yarn run can-npm-publish
