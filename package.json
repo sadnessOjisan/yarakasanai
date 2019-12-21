@@ -9,6 +9,9 @@
     "node": "12"
   },
   "engineStrict": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:lcl": "NODE_ENV=local rollup -c",
     "build:dev": "NODE_ENV=development rollup -c",
