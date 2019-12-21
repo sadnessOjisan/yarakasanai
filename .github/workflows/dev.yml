@@ -25,7 +25,7 @@ jobs:
           yarn install
       - name: licence check
         run: |
-          summary=`license-checker --production --summary`
+          summary=`yarn license-checker --production --summary`
           ret=`cat summary | grep -v LGPL | grep -e GPL | wc -l`
           exit $ret
       - name: build
