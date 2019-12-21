@@ -22,9 +22,9 @@ jobs:
       - name: install
         run: |
           yarn install
-      - name: test
+      - name: build
         run: |
-          NODE_ENV=stg node src/main.js
+          yarn build:stg
         env:
           CI: true
       - name: can i publish

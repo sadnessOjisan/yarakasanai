@@ -1,5 +1,5 @@
 import babel from "rollup-plugin-babel";
-import pkg from "./package.json";
+import replace from "rollup-plugin-replace";
 
 const config = {
   input: "src/index.js",
@@ -7,7 +7,12 @@ const config = {
     file: "dist/bundle.js",
     format: "cjs"
   },
-  plugins: [babel()]
+  plugins: [
+    babel(),
+    replace({
+      "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
+    })
+  ]
 };
 
 export default config;

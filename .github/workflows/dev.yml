@@ -23,9 +23,9 @@ jobs:
       - name: install
         run: |
           yarn install
-      - name: test
+      - name: build
         run: |
-          NODE_ENV=dev node src/main.js
+          yarn build:dev
         env:
           CI: true
       - name: can i publish
