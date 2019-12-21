@@ -25,3 +25,5 @@ npm unpublish yarakasanai --force
 - https://dev.classmethod.jp/etc/github-actions-npm-automatic-release/
 - https://github.com/actions/setup-node/issues/52
 - https://docs.npmjs.com/cli/unpublish
+- https://ota42y.com/blog/2014/09/29/npm-publish
+- https://efcl.info/2015/04/30/npm-namespace/
