@@ -1,7 +1,7 @@
 {
   "name": "@sadness.ojisan/yarakasanai",
   "version": "0.0.11",
-  "main": "src/main.js",
+  "main": "dist/bundle.js",
   "repository": "https://github.com/sadnessOjisan/yarakasanai.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
@@ -12,6 +12,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "./dist/bundle.js"
+  ],
   "scripts": {
     "build:lcl": "NODE_ENV=local rollup -c",
     "build:dev": "NODE_ENV=development rollup -c",
