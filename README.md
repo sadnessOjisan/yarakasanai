@@ -23,14 +23,21 @@ $ yarn add @sadness.ojisan/yarakasanai
 
 ## 環境構築
 
+node は v12 に固定しています(engines + Github Actions)
+
+```
+$ node -v                                                                                                    
+v12.13.0
+```
+
 ```zsh
-yarn install
+$ yarn install
 ```
 
 ## やらかしたとき
 
 ```zsh
-npm unpublish yarakasanai --force
+$ npm unpublish yarakasanai --force
 ```
 
 ## ref
