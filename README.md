@@ -2,9 +2,24 @@
 
 [本番環境でやらかしちゃった人 Advent Calendar 2019](https://qiita.com/advent-calendar/2019/yarakashi-production) 23 日目でやらかしたことを起こさないためのレポジトリです。
 
+## 概要
+
+やらかさないために・確実な publish をするために
+
+- CI/CD サーバーからの publish
+- 環境の固定やコード化
+
+を行なったサンプルプロジェクトです。
+
+ここで作ったモジュールは次のようにインストールできます。
+
 ```zsh
-$ yarn add @sadnessOjisan/yarakasanai
+$ yarn add @sadness.ojisan/yarakasanai
 ```
+
+また、上でインストールできるモジュールはこのように使うことができます。
+
+[codesandbox.io](https://codesandbox.io/s/nice-rhodes-bgzs1?fontsize=14&hidenavigation=1&theme=dark)
 
 ## 環境構築
 
