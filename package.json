@@ -5,6 +5,13 @@
   "repository": "https://github.com/sadnessOjisan/yarakasanai.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
+  "description": "本番環境でやらかさないためのサンプルアプリです。",
+  "keywords": [
+    "本番環境",
+    "やらかす",
+    "GitHub Actions",
+    "npm"
+  ],
   "engines": {
     "node": "12"
   },
