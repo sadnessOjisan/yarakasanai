@@ -42,3 +42,8 @@ npm unpublish yarakasanai --force
 - https://docs.npmjs.com/cli/unpublish
 - https://ota42y.com/blog/2014/09/29/npm-publish
 - https://efcl.info/2015/04/30/npm-namespace/
+- https://one-it-thing.com/327/
+
+## License
+
+MIT
