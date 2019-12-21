@@ -26,8 +26,8 @@ jobs:
       - name: licence check
         run: |
           summary=`yarn license-checker --production --summary`
-          cat summary
-          ret=`cat summary | grep -v LGPL | grep -e GPL | wc -l`
+          echo summary
+          ret=`echo summary | grep -v LGPL | grep -e GPL | wc -l`
           exit $ret
       - name: build
         run: |
