@@ -1,21 +1,43 @@
 # yarakasanai
 
-[本番環境でやらかしちゃった人 Advent Calendar 2019](https://qiita.com/advent-calendar/2019/yarakashi-production) 23 日目でやらかしたことを起こさないためのレポジトリです。
+[本番環境でやらかしちゃった人 Advent Calendar 2019](https://qiita.com/advent-calendar/2019/yarakashi-production) 23 日目([思いもよらないものを npm publish してしまった話（前任者の顔写真など）](https://qiita.com/sadnessOjisan/items/3069e79038c961458ba2))でやらかしたことを起こさないためのレポジトリです。
+
+## 概要
+
+やらかさないために・確実な publish をするために
+
+- CI/CD サーバーからの publish
+- 環境の固定やコード化
+
+を行なったサンプルプロジェクトです。
+
+ここで作ったモジュールは次のようにインストールできます。
 
 ```zsh
-$ yarn add @sadnessOjisan/yarakasanai
+$ yarn add @sadness.ojisan/yarakasanai
 ```
+
+また、上でインストールできるモジュールはこのように使うことができます。
+
+[codesandbox.io](https://codesandbox.io/s/nice-rhodes-bgzs1?fontsize=14&hidenavigation=1&theme=dark)
 
 ## 環境構築
 
+node は v12 に固定しています(engines + Github Actions)
+
+```
+$ node -v                                                                                                    
+v12.13.0
+```
+
 ```zsh
-yarn install
+$ yarn install
 ```
 
 ## やらかしたとき
 
 ```zsh
-npm unpublish yarakasanai --force
+$ npm unpublish yarakasanai --force
 ```
 
 ## ref
@@ -27,3 +49,8 @@ npm unpublish yarakasanai --force
 - https://docs.npmjs.com/cli/unpublish
 - https://ota42y.com/blog/2014/09/29/npm-publish
 - https://efcl.info/2015/04/30/npm-namespace/
+- https://one-it-thing.com/327/
+
+## License
+
+MIT
