@@ -1,6 +1,6 @@
 # yarakasanai
 
-[本番環境でやらかしちゃった人 Advent Calendar 2019](https://qiita.com/advent-calendar/2019/yarakashi-production) 23 日目でやらかしたことを起こさないためのレポジトリです。
+[本番環境でやらかしちゃった人 Advent Calendar 2019](https://qiita.com/advent-calendar/2019/yarakashi-production) 23 日目([思いもよらないものを npm publish してしまった話（前任者の顔写真など）](https://qiita.com/sadnessOjisan/items/3069e79038c961458ba2))でやらかしたことを起こさないためのレポジトリです。
 
 ## 概要
 
